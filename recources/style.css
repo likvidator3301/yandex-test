@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("Bebas_Neue.ttf");
+}
+@font-face {
+    font-family: "Agency";
+    src: url("Agency.ttf");
+}
+
+.dark_red-letter {
+  color: #c5241c
+}
+
+.figures-container {
+    margin-top: 100px;
+}
+
+.title-letter {
+  font-size: 48px;
+  font-family: "Agency", sans-serif;
+}
+.yandex {
+  font-size: 32px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+}
+
+.head {
+  font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.main-info {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.figures {
+  margin-top: 10%;
+}
+
+#circle {
+  width: 240px;
+  height: 240px;
+  -moz-border-radius: 120px;
+  -webkit-border-radius: 120px;
+  border-radius: 120px;
+  position: absolute;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 100px solid #c5241c;
+  position: absolute;
+  transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+}
+
+#square {
+  width: 120px;
+  height: 140px;
+  position: absolute;
+}
+
+.yellow {
+  background: #f1cf2f;
+}
+
+.dark_red {
+  background: #c5241c;
+}
+
+.black {
+  background: black;
+}
+
+#pentagon {
+  position: absolute;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #c5241c transparent;
+}
+#pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent #c5241c;
+}
+
+.center-container {
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
+
+.figures {
+    position: absolute;
+}
+
+#pentagon {
+    position: absolute;
+    width: 144px;
+    border-width: 77px 28px 0;
+    border-style: solid;
+    border-color: #c5241c transparent;
+    transform: rotate(190deg);
+    -moz-transform: rotate(190deg);
+    -webkit-transform: rotate(190deg);
+}
+#pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -134px;
+    left: -28px;
+    border-width: 0 72px 58px;
+    border-style: solid;
+    border-color: transparent transparent #c5241c;
+}
+
+#hexagon {
+    width: 100px;
+    height: 55px;
+    background: #c5241c;
+    position: absolute;
+    transform: rotate(-75deg);
+    -moz-transform: rotate(-75deg);
+    -webkit-transform: rotate(-75deg);
+}
+#hexagon:before {
+    content: "";
+    position: absolute;
+    top: -29px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 30px solid #c5241c;
+}
+#hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 30px solid #c5241c;
+}
+
+.rot-32 {
+    transform: rotate(32deg);
+    -moz-transform: rotate(32deg);
+    -webkit-transform: rotate(32deg);
+}
+
+.white {
+    background: white;
+}
+
